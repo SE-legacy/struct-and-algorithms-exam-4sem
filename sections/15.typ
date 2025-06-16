@@ -12,3 +12,5 @@ $ t(n) = cases(c + b/k n comma & space "если" a = 1 comma, a^(n slash k)c + 
 
 #consequence([При $tau = 0, space forall c gt.eq.slant 0, space n -> oo$ для решения реккурентного соотношения (@t15:eq4) верны асимптотические оценки: $ t(n) = cases(O(n) comma & space "если" a = 1 comma space b > 0 comma, O(a^(n slash k)) comma & space "если" a eq.not 1 comma space b > 0.) $
 В частности, $tau = b = 0, space a = 1 => space t(n) eq.triple O(1).$])[]
+
+#consequence([При $tau, c gt.eq.slant 0, space b > 0, space a = 1, space n -> oo$ для решения реккурентного соотношения (@t15:eq4) верны асимптотическая оценка: $ t(n) = O(n^(tau + 1)) $])[]
